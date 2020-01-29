@@ -17,7 +17,7 @@ const Home = () => (
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
       <br/>
-      <p>Futuer Home of Designers.Vegas!</p>
+      <p className="description">Future Home of Designers.Vegas!</p>
 
       <div className="row">
         <a href="https://nextjs.org/docs" className="card">
