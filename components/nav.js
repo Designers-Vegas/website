@@ -2,8 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 
 const links = [
-  { href: 'https://zeit.co/now', label: 'ZEIT' },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub' }
+  { href: '/Events', label: 'Events' },
+  { href: '/About', label: 'About' },
+  { href: '/Members', label: 'Members' },
+  { href: '/Sponsors', label: 'Sponsors' }
 ].map(link => ({
   ...link,
   key: `nav-link-${link.href}-${link.label}`
