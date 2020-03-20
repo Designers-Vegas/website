@@ -14,7 +14,6 @@ const Home = () => (
     <div className="hero">
       <h1 className="title">Welcome to Next.js!</h1>
       <p className="description">Future Home of Designers.Vegas!</p>
-
       <div className="row">
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
