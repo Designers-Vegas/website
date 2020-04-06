@@ -1,6 +1,6 @@
 import Layout from '../components/myLayout';
 
-const Sponsors = () => (
+const Contact = () => (
   <Layout Page={'Contact'}>
     <h1>Contact</h1>
     <p>
