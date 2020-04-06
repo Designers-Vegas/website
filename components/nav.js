@@ -2,10 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 const links = [
-  { href: '/Events', label: 'Events' },
-  { href: '/About', label: 'About' },
-  { href: '/Members', label: 'Members' },
-  { href: '/Sponsors', label: 'Sponsors' }
+  { href: '/about', label: 'About' },
+  { href: '/events', label: 'Events' },
+  { href: '/resources', label: 'Resources' },
+  { href: '/sponsors', label: 'Sponsors' },
+  { href: '/contact', label: 'Contact' }
 ].map(link => ({
   ...link,
   key: `nav-link-${link.href}-${link.label}`
@@ -27,11 +28,6 @@ const Nav = () => (
     </ul>
 
     <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
       nav {
         text-align: center;
       }
